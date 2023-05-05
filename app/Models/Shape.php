@@ -6,5 +6,5 @@ namespace App\Models;
 
 abstract class Shape
 {
-    public function draw(){}
+    abstract function draw();
 }

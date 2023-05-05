@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/factory', [DesignController::class, 'factory'])->name('design.factory');
+Route::get('/abstractFactory', [DesignController::class, 'abstractFactory'])->name('design.abstractFactory');
